@@ -9,8 +9,8 @@ deploy:
   provider: pypi
   distributions: sdist bdist_wheel
   user: dibisis
-  password:
-    secure: "pnpAQbDf1tjEpbbeGovZPqn2MZVHfzS7grIyaHDYZeMuPD7CFsYug2RpeuhOxeCyXDK5yzLuxunJkhhDD/j6i6CGXGJ6+qom1gK7fM8t5YU17eHXfFXXi9PQnxHRa+fd+1K6skQYYsM0oreVcq2KFNibPvmXe8jjslC72ls3K46QYF+ZwAcmQ0+cEZP23aTUnmdpc1o+k7eYA0vDFaIHrvemgo8S+YRU/x3G1ryR3WTo1KmTeuimIPRQ6W+amnmmpHUOprEiab5f3cTs91AAfXpawhh2NwzoO6dgTqY41EmtQ2iviTxRRLmRRW2SUrAks+tVy7KuOmWGdlZoWVrwnuP4Coxh2LjJLaXT0TDabxoOsBLYcvqBg8jLP+ECxv/jt4u5E9NbWeQbMyN+1+QwSn6TSb/nERhxC4ziu9pL2oQb9oWfs1spGAxiMgzHcHBGdwxsEx2VWIAM4yFXwJYct1H5bIJYeMll7xhNHUPTXQ8BG4hGmKF6EEpBgv3xvXbV71AA2ORcyUF8NfMqVnFH0nGNYPsYygrVaQmb6g01SJtryt3Uf2M5IOdYY5GyNCYsRN9XxZthYpxRG13dIQMaBP2J+7IoKxymcUUBwz6pRSdx01p1liCmE6lrMna6PNahSRdTKSnfsrApdfRtGqTBZ6MCUkPWqupEm1KHTpm6eWg="
+  password: temptemp
+    
   on:
     tags: true
     repo: dibisis/checking_smtp_starttls
