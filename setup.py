@@ -48,6 +48,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/dibisis/checking_smtp_starttls',
-    version='version='version='0.5.0''',
+    version='version='version='1.0.0''',
     zip_safe=False,
 )

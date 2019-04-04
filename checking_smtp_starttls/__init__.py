@@ -4,4 +4,4 @@
 
 __author__ = """Goong Won, Chun"""
 __email__ = 'dibisis@gmail.com'
-__version__ = '__version__ = '__version__ = '0.5.0'''
+__version__ = '__version__ = '__version__ = '1.0.0'''
