@@ -1,8 +1,13 @@
 language: python
 python:
 - 3.6
-- 3.5
-- 3.4
 install: pip install -U tox-travis
 script: tox
-
+deploy:
+  provider: pypi
+  user: dibisis
+  password:
+    secure: XC9lHX6MNzDjAV20Mx7Z7Hs1velYAaI4GOCBnX0K4TwYeJrMV4rd89J/Hjcom1qUAKYpQlp368J02vrq5SK9+MFv5GXMwI61iq+TBnNzElDLFYQiORmApPGKQ34gE6wVIAhDuCj50Nu9+dej5XwhmfQreh5Az83TAQx8myVjXhOvwYgJZyRmgOUyTy/jqsku0HrISQ1W1Ke+sC50mGZtzVwgqT5/5dqA9FmiwLxPVqkOhZX9wScTvEoHx4NYgJqMmUHA/yBo6TOTPsJa6bgRzArDpmouGAI3z7gmtOfQrBQbD7aEzN3Bqhgn6xWX6TnzJUjEbPnewoTFIClcJMm9Ku0VBzhDsqacLrE4cKF/sbtwMxwkm0eCGx3yi3cRJlQUp+oqhLIVzkLkjNXu0a34gOJTurOJJDvHKHL11z1rbEaIe0UrOcWcPEkAvHhj7kZvJn5XMf25ueLGADwARQOeGeXmy83G/YRRp27r9TcDKbijnkHffYCRGJtT2lThho6pSZpWMP7vFzOckorO5F9KikWdK4QEDqZ5KXKCEU6mKg31m0pdrzAitP1gUMPzNZauPj3YnGzxRvMT6HI18N6nvjlqWF2bF2qC2cFHpR9cFFPr34hEyRbSVZKz874iK73GJXD4njD7Y2KRCbhSNXkUbXnnz1Jo5ZfFcJxJfRWx+Uw=
+  on:
+    tags: true
+  skip_cleanup: true
