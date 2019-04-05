@@ -5,13 +5,4 @@ python:
 - 3.4
 install: pip install -U tox-travis
 script: tox
-deploy:
-  provider: pypi
-  distributions: sdist bdist_wheel
-  user: dibisis
-  password:
-    secure: WhlEQCmaelBvJLnLlpceNPi2r2Woy7Gp+7WYpqH7aE+9WISWwKSD9EVc0VM7JjqVXrphw3f+oi1wfSZGHDRMK8nr1Szy/gkSPi/lqiLZbL7ZGSKC0rfRqnHDF/g2HuWHS9zpO7brp3w7qwL0TNWh8mDs6cZdccPlM+R3/KBmw6RJTfPA6MBDmjO4llzwNW74lvjgYsFUqjds81cvd6QaAItJIa0CpQAErmCaLA2H8FuEbCePQ5bS7LiuXZOvaV6OjVsuwuvbpSirVIeRq/edCvFmD0Z9Rxrfg7d8j4sVpjFANkp3ZfiAbVqRMT7GzAqZphTmw5HUZ6uV4BJzG6MgZ8vtSHhfLPW40+Zyr6RjCaoA+g56N1pRb6wxuB3a3y4oY8AjJ3BgFAFLpEBGkfPQHVAPzhw0OqkNuapVuCMO6aQ3KPTPJNLMWZ4N54hLSImGVJuO4e+mKgCZstiNfw1ZcNOQETBBrOSoQ3eRqt3MolxsvlO5W6fkdvQZtOiQ2fVDLTNO5kIegQ04hMMQ9PZROZxLFncFYEwpSN6CcuX/LP7yXdGp83FKjE24mjSLsxCNPdo4bWvOPdczcj3m2yKmGiPSVmMZMTaBsDxMGR82aeI0CdbJkicdPg2j6+0dWeqpfcPD22eNhBNoGAWAlPuA5AW5I/XWJgyQ4iaaY05xGDU=
-  on:
-    tags: true
-    repo: dibisis/checking_smtp_starttls
-    python: 3.6
+
